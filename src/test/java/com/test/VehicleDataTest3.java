@@ -1,4 +1,4 @@
-package com.tests;
+package com.test;
 
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
@@ -39,7 +39,7 @@ public class VehicleDataTest3 {
 		ew = new ExcelResultWriter();
 	}
 
-	@Test(enabled = true, dataProvider = "getData", dataProviderClass = com.tests.DemoReadDataFromXLS.class)
+	@Test(enabled = true, dataProvider = "getData", dataProviderClass = com.test.DemoReadDataFromXLS.class)
 	public void testLoginDATAPROVIDER(String vehicleNum) throws InterruptedException, IOException {
 
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(15));

@@ -1,4 +1,4 @@
-package com.tests;
+package com.test;
 
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
@@ -35,7 +35,7 @@ public class LoginTest3 {
 		driver.get("https://commercial.policybazaar.com/");
 	}
 
-	@Test(enabled = true, dataProvider = "getData", dataProviderClass = com.tests.DemoReadDataFromXLS.class)
+	@Test(enabled = true, dataProvider = "getData", dataProviderClass = com.test.DemoReadDataFromXLS.class)
 	public void testLoginDATAPROVIDER(String vehicleNum) throws InterruptedException, IOException {
 
 		
