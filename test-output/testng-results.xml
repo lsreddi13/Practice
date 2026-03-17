@@ -1,17 +1,81 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results total="1" passed="1" failed="0" skipped="0">
+<testng-results total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-03-13T14:27:16Z" name="Default suite" finished-at="2026-03-13T14:28:31Z" duration-ms="74622">
+  <suite started-at="2026-03-17T14:55:15Z" name="Default suite" finished-at="2026-03-17T14:55:58Z" duration-ms="42957">
     <groups>
     </groups>
-    <test started-at="2026-03-13T14:27:16Z" name="Default test" finished-at="2026-03-13T14:28:31Z" duration-ms="74622">
-      <class name="com.test.LoginTest">
-        <test-method signature="testLogin()[pri:0, instance:com.test.LoginTest@341814d3]" started-at="2026-03-13T19:57:16Z" name="testLogin" finished-at="2026-03-13T19:58:31Z" duration-ms="74608" status="PASS">
+    <test started-at="2026-03-17T14:55:15Z" name="Default test" finished-at="2026-03-17T14:55:58Z" duration-ms="42957">
+      <class name="com.test.mytest.DemoTask2">
+        <test-method is-config="true" signature="open()[pri:0, instance:com.test.mytest.DemoTask2@73d983ea]" started-at="2026-03-17T20:25:15Z" name="open" finished-at="2026-03-17T20:25:28Z" duration-ms="12323" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testLogin -->
-      </class> <!-- com.test.LoginTest -->
+        </test-method> <!-- open -->
+        <test-method signature="test2(java.lang.String, java.lang.String)[pri:0, instance:com.test.mytest.DemoTask2@73d983ea]" started-at="2026-03-17T20:25:29Z" name="test2" data-provider="excelData" finished-at="2026-03-17T20:25:37Z" duration-ms="8489" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sasi]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sasi123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method signature="test2(java.lang.String, java.lang.String)[pri:0, instance:com.test.mytest.DemoTask2@73d983ea]" started-at="2026-03-17T20:25:37Z" name="test2" data-provider="excelData" finished-at="2026-03-17T20:25:46Z" duration-ms="8634" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method signature="test2(java.lang.String, java.lang.String)[pri:0, instance:com.test.mytest.DemoTask2@73d983ea]" started-at="2026-03-17T20:25:46Z" name="test2" data-provider="excelData" finished-at="2026-03-17T20:25:52Z" duration-ms="6340" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[karthik]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[karthik123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method signature="test2(java.lang.String, java.lang.String)[pri:0, instance:com.test.mytest.DemoTask2@73d983ea]" started-at="2026-03-17T20:25:52Z" name="test2" data-provider="excelData" finished-at="2026-03-17T20:25:58Z" duration-ms="6390" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[divya]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[divya123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+      </class> <!-- com.test.mytest.DemoTask2 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
