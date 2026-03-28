@@ -10,7 +10,8 @@ import org.testng.annotations.Test;
 public class DoubleClickExample {
 	
 	
-	   
+	 //global vars
+	//local vars
 	  
 	  
 	@Test
