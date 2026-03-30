@@ -2,20 +2,20 @@
 <testng-results total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-03-28T14:13:59Z" name="Default suite" finished-at="2026-03-28T14:14:47Z" duration-ms="48921">
+  <suite started-at="2026-03-30T14:33:26Z" name="Default suite" finished-at="2026-03-30T14:34:06Z" duration-ms="40412">
     <groups>
     </groups>
-    <test started-at="2026-03-28T14:13:59Z" name="Default test" finished-at="2026-03-28T14:14:47Z" duration-ms="48921">
-      <class name="com.test.RadioButtonDemo">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.test.RadioButtonDemo@69f1a286]" started-at="2026-03-28T19:43:59Z" name="setUp" finished-at="2026-03-28T19:44:05Z" duration-ms="6375" status="PASS">
+    <test started-at="2026-03-30T14:33:26Z" name="Default test" finished-at="2026-03-30T14:34:06Z" duration-ms="40412">
+      <class name="com.test.Webtables.DemoWebTables">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.test.Webtables.DemoWebTables@345f69f3]" started-at="2026-03-30T20:03:26Z" name="setUp" finished-at="2026-03-30T20:03:32Z" duration-ms="6428" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="test()[pri:0, instance:com.test.RadioButtonDemo@69f1a286]" started-at="2026-03-28T19:44:05Z" name="test" finished-at="2026-03-28T19:44:47Z" duration-ms="42534" status="PASS">
+        <test-method signature="test()[pri:0, instance:com.test.Webtables.DemoWebTables@345f69f3]" started-at="2026-03-30T20:03:32Z" name="test" finished-at="2026-03-30T20:04:06Z" duration-ms="33970" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-      </class> <!-- com.test.RadioButtonDemo -->
+      </class> <!-- com.test.Webtables.DemoWebTables -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
