@@ -14,28 +14,65 @@ import org.testng.annotations.Test;
 
 public class DemoWebTables {
 
+	
+	//click add and fill registration form
+	//edit the added user values then validate the updated values.
+	//delete newly added user
+	
+	
+	
+	
+	
+	
+	
 	WebDriver driver;
+	
+	String fname = "Amar";
+	String lname = "Reddy";
+	String age = "35";
+	String email = "Amar@gmail.com";
+	String sal = "35000";
+	String department = "testing";
 
 	@BeforeClass
 	public void setUp() {
 		driver = new ChromeDriver();
 	}
-
-	@Test
-	public void test() {
-
-		driver.get("https://demoqa.com/webtables");
-
+	
+	public List<String> getTableHeaderNamesList(String xpath) {
 		List<String> actualHeaderNames = new ArrayList<>();
-		List<String> expectedHeaderNames = Arrays.asList("First Name", "Last Name", "Age", "Email", "Salary",
-				"Department", "Action");
-
-		List<WebElement> tableHeaderNames = driver.findElements(By.xpath("//table/thead/tr/th"));
+		List<WebElement> tableHeaderNames = driver.findElements(By.xpath(xpath));
 
 		for (WebElement h_name : tableHeaderNames) {
 			actualHeaderNames.add(h_name.getText());
 		}
-		Assert.assertEquals(actualHeaderNames, expectedHeaderNames);
+		return actualHeaderNames;
+	}
+
+	@Test
+	public void editTest() {
+		
+	}
+	
+	
+	@Test
+	public void deleteTest() {
+		
+		
+	}
+	@Test
+	public void addTest() {
+
+		driver.get("https://demoqa.com/webtables");
+
+		
+		List<String> expectedHeaderNames = Arrays.asList("First Name", "Last Name", "Age", "Email", "Salary",
+				"Department", "Action");
+
+//		List<String> actualHeaderNames = getTableHeaderNamesList();
+//		Assert.assertEquals(actualHeaderNames, expectedHeaderNames);
+		
+		Assert.assertEquals(getTableHeaderNamesList("//table/thead/tr/th"), expectedHeaderNames);
 
 		// get the number of rows before adding new row
 		
@@ -47,7 +84,7 @@ public class DemoWebTables {
 
 		
 
-		WebElement l_name_ele = driver.findElement(By.id("lastName"));
+		
 
 		WebElement email_ele = driver.findElement(By.id("userEmail"));
 
@@ -59,15 +96,10 @@ public class DemoWebTables {
 
 		WebElement submit_ele = driver.findElement(By.id("submit"));
 
-		String fname = "Amar";
-		String lname = "Reddy";
-		String age = "35";
-		String email = "Amar@gmail.com";
-		String sal = "35000";
-		String department = "testing";
+		
 
 		enterFirstName(fname);
-		l_name_ele.sendKeys(lname);
+		enterLastName(lname);
 		email_ele.sendKeys(email);
 		age_ele.sendKeys(age);
 		sal_ele.sendKeys(sal);
@@ -120,6 +152,12 @@ public class DemoWebTables {
 	public void enterFirstName(String fname) {
 		WebElement f_name_ele = driver.findElement(By.id("firstName"));
 		f_name_ele.sendKeys(fname);
+	}
+	
+	public void enterLastName(String lname) {
+		WebElement l_name_ele = driver.findElement(By.id("lastName"));
+		l_name_ele.sendKeys(lname);
+		
 	}
 
 }
