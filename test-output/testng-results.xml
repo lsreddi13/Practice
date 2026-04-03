@@ -2,16 +2,16 @@
 <testng-results total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-04-02T14:21:54Z" name="Default suite" finished-at="2026-04-02T14:22:13Z" duration-ms="18979">
+  <suite started-at="2026-04-03T14:27:56Z" name="Default suite" finished-at="2026-04-03T14:28:07Z" duration-ms="10972">
     <groups>
     </groups>
-    <test started-at="2026-04-02T14:21:54Z" name="Default test" finished-at="2026-04-02T14:22:13Z" duration-ms="18979">
-      <class name="com.test.waits.DemoWaits">
-        <test-method signature="testWaits()[pri:0, instance:com.test.waits.DemoWaits@51133c06]" started-at="2026-04-02T19:51:54Z" name="testWaits" finished-at="2026-04-02T19:52:13Z" duration-ms="18968" status="PASS">
+    <test started-at="2026-04-03T14:27:56Z" name="Default test" finished-at="2026-04-03T14:28:07Z" duration-ms="10972">
+      <class name="com.test.waits.PageLoadTimeOut">
+        <test-method signature="testWaitExplicit()[pri:0, instance:com.test.waits.PageLoadTimeOut@51133c06]" started-at="2026-04-03T19:57:56Z" name="testWaitExplicit" finished-at="2026-04-03T19:58:07Z" duration-ms="10961" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testWaits -->
-      </class> <!-- com.test.waits.DemoWaits -->
+        </test-method> <!-- testWaitExplicit -->
+      </class> <!-- com.test.waits.PageLoadTimeOut -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
