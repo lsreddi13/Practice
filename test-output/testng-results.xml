@@ -1,17 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results total="1" passed="1" failed="0" skipped="0">
+<testng-results total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-04-03T14:27:56Z" name="Default suite" finished-at="2026-04-03T14:28:07Z" duration-ms="10972">
+  <suite started-at="2026-04-06T14:31:41Z" name="Default suite" finished-at="2026-04-06T14:32:34Z" duration-ms="53605">
     <groups>
     </groups>
-    <test started-at="2026-04-03T14:27:56Z" name="Default test" finished-at="2026-04-03T14:28:07Z" duration-ms="10972">
-      <class name="com.test.waits.PageLoadTimeOut">
-        <test-method signature="testWaitExplicit()[pri:0, instance:com.test.waits.PageLoadTimeOut@51133c06]" started-at="2026-04-03T19:57:56Z" name="testWaitExplicit" finished-at="2026-04-03T19:58:07Z" duration-ms="10961" status="PASS">
+    <test started-at="2026-04-06T14:31:41Z" name="Default test" finished-at="2026-04-06T14:32:34Z" duration-ms="53605">
+      <class name="com.scereenshot.DemoScreenshot">
+        <test-method signature="testPageScreenShot()[pri:0, instance:com.scereenshot.DemoScreenshot@4b213651]" started-at="2026-04-06T20:01:41Z" name="testPageScreenShot" finished-at="2026-04-06T20:02:06Z" duration-ms="25820" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testWaitExplicit -->
-      </class> <!-- com.test.waits.PageLoadTimeOut -->
+        </test-method> <!-- testPageScreenShot -->
+        <test-method signature="testScreenShotWebElement()[pri:0, instance:com.scereenshot.DemoScreenshot@4b213651]" started-at="2026-04-06T20:02:06Z" name="testScreenShotWebElement" finished-at="2026-04-06T20:02:34Z" duration-ms="27767" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testScreenShotWebElement -->
+      </class> <!-- com.scereenshot.DemoScreenshot -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
