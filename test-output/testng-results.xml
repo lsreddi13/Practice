@@ -1,21 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results total="2" passed="2" failed="0" skipped="0">
+<testng-results total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-04-06T14:31:41Z" name="Default suite" finished-at="2026-04-06T14:32:34Z" duration-ms="53605">
+  <suite started-at="2026-04-07T14:33:29Z" name="Default suite" finished-at="2026-04-07T14:33:54Z" duration-ms="25156">
     <groups>
     </groups>
-    <test started-at="2026-04-06T14:31:41Z" name="Default test" finished-at="2026-04-06T14:32:34Z" duration-ms="53605">
-      <class name="com.scereenshot.DemoScreenshot">
-        <test-method signature="testPageScreenShot()[pri:0, instance:com.scereenshot.DemoScreenshot@4b213651]" started-at="2026-04-06T20:01:41Z" name="testPageScreenShot" finished-at="2026-04-06T20:02:06Z" duration-ms="25820" status="PASS">
+    <test started-at="2026-04-07T14:33:29Z" name="Default test" finished-at="2026-04-07T14:33:54Z" duration-ms="25156">
+      <class name="com.test.fillForm.DemoForm">
+        <test-method signature="test()[pri:0, instance:com.test.fillForm.DemoForm@4b213651]" started-at="2026-04-07T20:03:29Z" name="test" finished-at="2026-04-07T20:03:54Z" duration-ms="25144" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testPageScreenShot -->
-        <test-method signature="testScreenShotWebElement()[pri:0, instance:com.scereenshot.DemoScreenshot@4b213651]" started-at="2026-04-06T20:02:06Z" name="testScreenShotWebElement" finished-at="2026-04-06T20:02:34Z" duration-ms="27767" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testScreenShotWebElement -->
-      </class> <!-- com.scereenshot.DemoScreenshot -->
+        </test-method> <!-- test -->
+      </class> <!-- com.test.fillForm.DemoForm -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
