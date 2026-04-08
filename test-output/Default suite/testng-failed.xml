@@ -3,7 +3,17 @@
 <suite parallel="none" name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test name="Default test" verbose="2">
     <classes>
-      <class name="com.test.fillForm.DemoForm"/>
+      <class name="com.propertiesTestData.Browsers"/>
     </classes>
   </test> <!-- Default test -->
+  <test parallel="none" name="Default test(failed)">
+    <classes>
+      <class name="com.propertiesTestData.Browsers">
+        <methods>
+          <include name="testB3"/>
+          <include name="testB2"/>
+        </methods>
+      </class> <!-- com.propertiesTestData.Browsers -->
+    </classes>
+  </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
